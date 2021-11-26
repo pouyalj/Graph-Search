@@ -1,4 +1,4 @@
-# This will use DFS
+# This will not use DFS
 
 graph = {
   '5' : ['3','7'],

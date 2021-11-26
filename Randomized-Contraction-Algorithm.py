@@ -33,8 +33,10 @@ def mincut(g):
                 g[i][j] = v2 if g[i][j] == v1 else g[i][j]
     return len(g[0])-1
 
-
-N = 10
+# number of times to run mincut so that we choose smallest micut amont all the cuts found
+# N^2ln(N)
+N = 1000
+# start from empty keep iterating and adding
 cut = []
 for i in range(N):
     cut += [mincut(create())]

@@ -1,2 +1,2 @@
 # Graph-Search
-Basic Graph Search Code
+Basic Graph Search Algorithms

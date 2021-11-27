@@ -1,6 +1,4 @@
 # SCC using BFS
-# See the dijkstraData.txt for the source data file 
-# that the code was designed on
 
 import sys
 import resource
